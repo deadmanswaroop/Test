@@ -2,26 +2,66 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>coursera</title>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body >
-    <h1>Our Menu</h1>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <div class="navbar-brand">
+                <p class="nav-brand">Food, LLC</p>
+              </div>
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                 <li class="text-center">
+                   <a href="#container-1"><p class="item">sea</p></a>
+                   <hr class="visible-xs">
+                 </li>            
+                 <li class="text-center biryani-item">
+                   <a href="#container1"><p class="item">land</p></a>
+                   <hr class="visible-xs">
+                 </li>
+                 <li class="text-center chingri-item">
+                   <a href="#container2"><p class="item">air</p></a>
+                 </li>
+               </ul> 
+             </div>
+    
+    
+            </div>
+        </nav>
+    
+      </header>
+    <h2>Our Menu</h2>
    <div class="row">
 
-       <div id="container" class="col-lg-4 col-mg-6"><p class="one1">Hi</p>
-    <p class="one">Hi</p>
+       <div id="container-1" class="col-lg-4 col-mg-6"><p class="one1">Sea speices</p>
+    <p class="one">sea food</p>
 </div>
 
-<div id="container1"class="col-lg-4 col-mg-6"><p class="one1">Hello</p>
-    <p class="two">Hello</p>
+<div id="container1"class="col-lg-4 col-mg-6"><p class="one1">animals</p>
+    <p class="two">land food</p>
 </div>
 
-<div id="container2"class="col-lg-4 col-mg-6"><p class="one1">Namasthe</p>
-    <p class="three">Namasthe</p>
+<div id="container2"class="col-lg-4 col-mg-12"><p class="one1">birds</p>
+    <p class="three">air food</p>
 </div>
 
 </div>
@@ -29,5 +69,8 @@
 
 
 </section>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
